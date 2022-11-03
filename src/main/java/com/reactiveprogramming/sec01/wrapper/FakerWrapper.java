@@ -8,4 +8,8 @@ public class FakerWrapper {
     public static String getName() {
         return faker.name().firstName();
     }
+
+    public static String getRandomCountry() {
+        return faker.country().name();
+    }
 }
